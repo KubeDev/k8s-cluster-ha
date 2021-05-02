@@ -28,23 +28,23 @@ terraform init
 
 Executar o plano do Terraform
 ```console
-terraform plan -var "do_token=%DO_PAT%" -var "pvt_key=<path\you-private-key>"
+terraform plan -var "do_token=%DO_PAT%" -var "pvt_key=<path\your-private-key>"
 ```
 Deploy com Terraform na DigitalOcean
 ```console
-terraform apply -var "do_token=%DO_PAT%" -var "pvt_key=<path\you-private-key>"
+terraform apply -var "do_token=%DO_PAT%" -var "pvt_key=<path\your-private-key>"
 ```
 
 Destruir com Terraform droplets na DigitalOcean
 ```console
-terraform destroy -var "do_token=%DO_PAT%" -var "pvt_key=<path\you-private-key>"
+terraform destroy -var "do_token=%DO_PAT%" -var "pvt_key=<path\your-private-key>"
 ```
 
 
 
 Caso queira acessar os droplets via SSH a partir do seu computador:
 ```console
-ssh -i <path\you-private-key> <user>@<public-ip>
+ssh -i <path\your-private-key> <user>@<public-ip>
 ```
 Note que utilizamos a chave privada pois, anteriormente, geramos um par de chaves e cadastramos a pública na DO.  
   
