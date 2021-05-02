@@ -28,16 +28,16 @@ terraform init
 
 Executar o plano do Terraform
 ```console
-terraform plan -var "do_token=%DO_PAT%" -var "pvt_key=C:\Users\igorw\OneDrive\Documentos\projetos\keys\labs001-privatekey"
+terraform plan -var "do_token=%DO_PAT%" -var "pvt_key=<path\you-private-key>"
 ```
 Deploy com Terraform na DigitalOcean
 ```console
-terraform apply -var "do_token=%DO_PAT%" -var "pvt_key=C:\Users\igorw\OneDrive\Documentos\projetos\keys\labs001-privatekey"
+terraform apply -var "do_token=%DO_PAT%" -var "pvt_key=<path\you-private-key>"
 ```
 
 Destruir com Terraform droplets na DigitalOcean
 ```console
-terraform destroy -var "do_token=%DO_PAT%" -var "pvt_key=C:\Users\igorw\OneDrive\Documentos\projetos\keys\labs001-privatekey"
+terraform destroy -var "do_token=%DO_PAT%" -var "pvt_key=<path\you-private-key>"
 ```
 
 
