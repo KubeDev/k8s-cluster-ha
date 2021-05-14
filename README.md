@@ -98,6 +98,7 @@ Comandos úteis:
 
 ## INSTALAÇÃO DO [CONTAINERD](https://kubernetes.io/docs/setup/production-environment/container-runtimes/)
 [Este vídeo](https://www.youtube.com/watch?v=DXw6NODrIpc) pode te ajudar nesta instalação.  
+Não esqueça de habilitar o swap off. Esta configuração evita perda de performance e está aderente ao design e uso de containers limitando até 100% do recurso e não mais que isso.  
 
 Precisamos de um container runtime e, neste caso, escolhemos o containerd (poderia ser [CRI-O](https://cri-o.io/) ou outro).  
 
